@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainroot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#efefef"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/title_item"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="@color/main_head_color" >
+
+        <ImageView
+            android:id="@+id/title_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:gravity="center"
+            android:src="@drawable/return_tb1"
+            android:textColor="@color/white"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/title_title"
+            style="@style/setting_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="标题"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/tijiao_tv"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:background="@drawable/send_tb"
+            android:gravity="center" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/more_fgx" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/write_pl_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/main_title"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="30dp" >
+
+        <RelativeLayout
+            android:id="@+id/pinglun_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+
+            <EditText
+                android:id="@+id/xpl_tv"
+                android:layout_width="fill_parent"
+                android:layout_height="200dp"
+                android:background="#ffffff"
+                android:gravity="top"
+                android:hint="发表下您的观点吧  "
+                android:padding="5dp"
+                android:textColor="#040000"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pinglun_rl"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/xuxian"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</LinearLayout>

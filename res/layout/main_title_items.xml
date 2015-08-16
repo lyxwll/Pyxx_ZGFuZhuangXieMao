@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_item"
+    android:layout_width="fill_parent"
+    android:layout_height="44dp"
+    android:background="@drawable/biaoti_bg" >
+
+    <ImageView
+        android:id="@+id/title_back"
+        style="@style/button_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:contentDescription="@string/about"
+        android:src="@drawable/return_tb1" />
+
+    <TextView
+        android:id="@+id/title_title"
+        style="@style/setting_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="我的收藏"
+        android:textColor="#ffffff" />
+
+    <ImageView
+        android:id="@+id/title_btn_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:gravity="center"
+        android:src="@drawable/search_tb1"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/title_btn_pl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="8dp"
+        android:layout_toLeftOf="@id/title_btn_right"
+        android:gravity="center"
+        android:src="@drawable/title_left_icon"
+        android:visibility="gone" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/more_fgx"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/shops_city"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dip"
+        android:background="@drawable/button_bg"
+        android:gravity="center"
+        android:text="@string/shops_city"
+        android:textColor="#ffffff"
+        android:textSize="15sp"
+        android:visibility="gone" />
+
+</RelativeLayout>

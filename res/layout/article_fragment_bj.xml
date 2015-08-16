@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/part_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#00000000" >
+
+    <WebView
+        android:id="@+id/article_webvew"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" />
+
+    <RelativeLayout
+        android:id="@+id/loading"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="#efefef" >
+
+        <ImageView
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:layout_centerInParent="true"
+            android:scaleType="fitCenter" />
+
+        <ProgressBar
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:layout_centerInParent="true"
+            android:indeterminateDrawable="@drawable/progress_small" />
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <translate
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:duration="300"
+        android:fromXDelta="0"
+        android:interpolator="@animator/cycle"
+        android:toXDelta="50" />
+
+</set><!--
+fromDegrees开始时的角度
+toDegrees动画结束时角度
+pivotX,pivotY不太清楚，看效果应该是定义旋转的圆心的
+-->
+

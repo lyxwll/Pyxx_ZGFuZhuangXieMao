@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+          android:id="@+id/main_rl"
+          android:layout_width="fill_parent"
+          android:layout_height="fill_parent" >
+
+                    <android.widget.Gallery
+                        android:id="@+id/gallery"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_gravity="fill"
+                        android:spacing="10dp" />
+
+                    <RelativeLayout
+                        android:id="@+id/title_rl"
+                        android:layout_width="fill_parent"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true">
+     
+				       <TextView
+				           android:id="@+id/title"
+				           android:layout_width="fill_parent"
+				           android:layout_height="wrap_content"
+				           android:layout_centerVertical="true"
+				           android:paddingLeft="15dp"
+				           android:paddingRight="50dp"
+				           android:ellipsize="end"
+				           android:singleLine="true"
+				           android:text=""
+                           android:background="#38000000"
+				           android:textColor="#ffffff"
+				           android:textSize="15sp" />
+
+                        <RadioGroup
+                            android:id="@+id/group"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="10dp"
+                            android:orientation="horizontal" >
+                        </RadioGroup>
+                        <RadioGroup
+                            android:id="@+id/group2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_marginRight="10dp"
+                            android:orientation="horizontal" >
+                        </RadioGroup>
+                    </RelativeLayout>
+                </RelativeLayout>

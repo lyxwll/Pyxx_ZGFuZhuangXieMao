@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 首页的类型 -->
+    <string-array name="secondtype">
+        <item>家纺布艺</item>
+        <item>时尚家饰</item>
+        <item>空气净化</item>
+        <item>居家生活</item>
+        <item>厨具餐具</item>
+        <item>床/床垫</item>
+        <item>收纳杂物</item>
+        <item>沙发/柜/茶几</item>
+        <item>清洁护理</item>
+        <item>椅子/凳子</item>
+        <item>生活家电</item>
+        <item>办公家具</item>
+        <item>青少年家具</item>
+        <item>其他</item>
+    </string-array>
+    <string-array name="routeQuery">
+        <item>线路查询</item>
+    </string-array>
+    <string-array name="queryMode">
+        <item>公交线路</item>
+        <item>驾车线路</item>
+        <item>步行线路</item>
+    </string-array>
+    <string-array name="fuzhuang">
+        <item>女装</item>
+        <item>男装</item>
+        <item>婴幼儿服装</item>
+        <item>儿童装</item>
+        <item>孕妇装</item>
+        <item>中老年服饰</item>
+        </string-array>
+    <string-array name="clothurl">
+        <item>nanzhuang</item>
+        <item>nvzhuang</item>
+        <item>yingyouerfuzhuang</item>
+        <item>zhonglaonianfuzhuang</item>
+        <item>funfuzhuang</item>
+        <item>ertongzhuang</item>
+    </string-array>
+
+</resources>

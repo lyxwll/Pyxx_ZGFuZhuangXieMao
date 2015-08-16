@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+<RelativeLayout 
+    android:id="@+id/title_item"
+    android:layout_width="fill_parent"
+    android:layout_height="44dp"
+    android:background="@color/the_main_bg" >
+
+    <TextView
+        android:id="@+id/title_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/return_tb1"
+        android:layout_marginLeft="5dp"
+        android:gravity="center"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/title_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="搜索"
+        android:textColor="#ffffff"
+        android:textSize="20sp"/>
+</RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:layout_below="@id/title_item"
+        android:background="#eaeaea" >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_centerInParent="true" 
+	    android:background="@drawable/input_text"  >    
+           <ImageView
+                android:id="@+id/btn_search" 
+ 		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:src="@drawable/search_tb" 
+		        android:layout_marginLeft="5dp"
+		        android:layout_centerVertical="true"              
+               />
+           <EditText 
+                android:id="@+id/keyword_ed"
+		        android:layout_width="fill_parent"
+		        android:layout_height="35dp" 
+		        android:layout_toRightOf="@id/btn_search" 
+		        android:layout_marginLeft="5dp"           
+		        android:layout_marginRight="5dp"
+		        android:textCursorDrawable="@drawable/fengexian_1"
+		        android:textColor="#040000"
+		        android:background="@null"
+		        android:textSize="14sp"           
+               />
+           </RelativeLayout>
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/part_search"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/main_rl">
+        </RelativeLayout>
+</RelativeLayout>

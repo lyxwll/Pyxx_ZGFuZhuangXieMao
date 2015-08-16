@@ -1,0 +1,57 @@
+<resources>
+
+    <!-- 二级栏目信息 -->
+    <string-array name="second_names">
+        <item>特别关注,86,tbgz;说法论理,86,sfll;万家灯火,86,wjdh;心理密室,86,xlms;纸上商场,86,zssc;男人女人,86,nrnr;乐活主义,86,lhzy;百家精选,86,bjjx;家有难事,86,jyns;娱乐万象,86,ylwx;</item>
+        <item>藏界网事,89,cjws;新闻聚焦,89,xwjj;名家讲坛,89,mjjt;瓷器标点,89,cqbd;玉石翡翠,89,ysfc;文玩杂项,89,wwzx;丹青墨香,89,dqmx;画廊柜台,89,hlgt;说金话银,89,sjhy;邮市观察,89,ysgc</item>
+    </string-array>
+
+    <!-- 数据库表配制 -->
+    <string-array name="appconfig_sql">
+
+        <!-- 数据列表 -->
+        <item>CREATE TABLE IF NOT EXISTS listinfo (c_id INTEGER primary key autoincrement,url CHAR UNIQUE,infos TEXT,listtype CHAR);</item>
+        <!-- 已读未读提示 -->
+        <item>CREATE TABLE IF NOT EXISTS readitem (c_id INTEGER primary key autoincrement,n_mark CHAR UNIQUE,share_image TEXT,shorturl CHAR,htmltext TEXT,read CHAR);</item>
+        <!-- 推送 -->
+        <item>CREATE TABLE IF NOT EXISTS push(c_id INTEGER primary key autoincrement,info TEXT UNIQUE,nid TEXT,pushdate CHAR UNIQUE);</item>
+        <!-- 二级栏目 -->
+        <item>CREATE TABLE IF NOT EXISTS part_list(c_id INTEGER primary key autoincrement,part_name CHAR,part_sa CHAR,part_choise CHAR,part_index INTEGER,part_type CHAR,part_updatetime CHAR);</item>
+        <!-- app时间统计 -->
+        <item>CREATE TABLE IF NOT EXISTS apptime(c_id INTEGER primary key autoincrement,type CHAR,starttime CHAR,endtime CHAR,mark CHAR,aid CHAR,open_mode CHAR);</item>
+        <!-- 收藏 -->
+        <item>CREATE TABLE IF NOT EXISTS listitemfa (c_id INTEGER primary key autoincrement,icon TEXT,nid CHAR,des TEXT,title VARCHAR,sa CHAR,n_mark CHAR UNIQUE,u_date CHAR,show_type CHAR,other TEXT,other1 TEXT,other2 TEXT,other3 TEXT,share_image CHAR,ishead CHAR,isad CHAR,list_type CHAR,sugfrom INTEGER,author CHAR);</item>
+        <!-- 收藏通用数据库 -->
+        <item>CREATE TABLE IF NOT EXISTS listitemcollect (c_id INTEGER primary key autoincrement,icon TEXT,nid CHAR,des TEXT,title VARCHAR,address TEXT,author VARCHAR,fuwu VARCHAR,img_list_1 TEXT,img_list_2 TEXT,isad VARCHAR,ishead VARCHAR,level VARCHAR,list_type VARCHAR,longitude VARCHAR,
+            n_mark VARCHAR,other VARCHAR,other1 VARCHAR,other2 VARCHAR,other3 VARCHAR,phone VARCHAR,preferential VARCHAR,sa VARCHAR,shangjia VARCHAR,share_image VARCHAR,show_type VARCHAR,
+            sugfrom VARCHAR,u_date VARCHAR,vip_id CHAR,latitude VARCHAR);</item>
+    </string-array>
+    <!-- 数据库表删除 -->
+    <string-array name="appconfig_sql_upgrade">
+
+        <!-- <item>DELETE FROM  push</item> -->
+        <!-- <item>DELETE FROM  apptime</item> -->
+        <!-- <item>DELETE FROM  part_list</item> -->
+        <item>DROP TABLE IF EXISTS listitemcollect</item>
+        <item>DROP TABLE IF EXISTS listitemfa</item>
+        <item>DROP TABLE IF EXISTS listitemhead</item>
+        <item>DROP TABLE IF EXISTS listitemarticle</item>
+        <item>DROP TABLE IF EXISTS listitempic</item>
+        <item>DROP TABLE IF EXISTS listitempicfa</item>
+        <item>DROP TABLE IF EXISTS weiboinfo</item>
+        <item>DROP TABLE IF EXISTS wbcontent</item>
+        <item>DROP TABLE IF EXISTS listitempicitem</item>
+        <item>DROP TABLE IF EXISTS listitemcontent</item>
+        <item>DROP TABLE IF EXISTS readitem</item>
+        <item>DROP TABLE IF EXISTS push</item>
+    </string-array>
+    <string-array name="app_sql_delete">
+        <item>DELETE FROM  listinfo</item>
+        <item>DELETE FROM  readitem</item>
+        <!-- <item>DELETE FROM  push</item> -->
+        <!-- <item>DELETE FROM  apptime</item> -->
+        <!-- <item>DELETE FROM  part_list</item> -->
+        <!-- <item>DELETE FROM  listitemfa</item> -->
+    </string-array>
+
+</resources>

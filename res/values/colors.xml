@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="biaoti_color">#ff7979</color>
+    <color name="red">#900</color>
+    <color name="green">#090</color>
+    <color name="blue">#009</color>
+    <color name="white">#ffffff</color>
+    <color name="touming">#00000000</color>
+    <color name="black">#000</color>
+    <color name="red">#FF0000</color>
+    <color name="second_color">#9C9C9C</color>
+    <color name="share_texttoast_color">#FF0000</color>
+    <color name="readed">#535353</color>
+    <color name="second_color">#9C9C9C</color>
+    <color name="share_texttoast_color">#FF0000</color>
+    <color name="readed">#939393</color>
+    <color name="gread">#25CBA4</color>
+    <color name="main_bg">#F3F3F3</color>
+    <color name="main_bg_h">#F8F8FF</color>
+    <color name="public_city_list_item_click_color">#26CBA5</color>
+    <color name="public_city_list_item_txtv_color">#26CBA5</color>
+    <color name="comment_all">#32818b</color>
+    <color name="public_list_color_down">#E9E9E9</color>
+    <color name="banner_color">#7E7E5D</color>
+
+    <!-- public more color -->
+    <color name="main_head_color">#FF7979</color>
+    <color name="more_shape_corner_bg">#fff8f8f5</color>
+    <color name="more_pwhintfontcolor">#ffcacac7</color>
+    <color name="more_divider_color">#bdbdbd</color>
+    <color name="the_main_bg2">#9a6289</color>
+    <color name="the_main_bg">#ce84b6</color>
+    <color name="the_page_bg">#efefef</color>
+    <color name="erji_text">#929292</color>
+    <color name="shezhi_bg">#efefef</color>
+    <color name="shezhi_bg2">#dedede</color>
+
+    <drawable name="d_selector">#ffffff</drawable>
+    <drawable name="d_selector_n">#FF7979</drawable>
+    <drawable name="d_normal">#EBE9EA</drawable>
+    <drawable name="d_pic_selector">#40ffffff</drawable>
+    <drawable name="d_st_selector">#ece6dd</drawable>
+    <drawable name="d_init_bg">#A17A40</drawable>
+    <drawable name="d_selector">#f2f2f2</drawable>
+
+    <!-- customDialog color -->
+    <color name="dialog_common_bkg">#FF7979</color> <!-- 按钮正常背景色 -->
+    <color name="divider_color">#dddddd</color> <!-- 分割线,边线 -->
+    <color name="common_grey">#898989</color> <!-- 按钮正常描边背景色 -->
+    <color name="common_grey_background">#fbf4ec</color> <!-- 按钮点击描边背景色 -->
+    <color name="blue_pressed">#3399FF</color> <!-- 按钮点击背景色 -->
+    <!--  -->
+
+
+    <!-- GridView for item bgcolor -->
+    <color name="gridView_for_itembgcolor01">#d97848</color>
+    <color name="gridView_for_itembgcolor02">#1d99d9</color>
+    <color name="gridView_for_itembgcolor03">#a5c557</color>
+    <color name="gridView_for_itembgcolor04">#e7b255</color>
+    <color name="gridView_for_itembgcolor05">#d48479</color>
+    <color name="gridView_for_itembgcolor06">#83b6d0</color>
+    <color name="gridView_for_itembgcolor07">#eb7d7d</color>
+    <color name="gridView_for_itembgcolor08">#6dbbc5</color>
+    <color name="gridView_for_itembgcolor09">#ef6485</color>
+    <color name="gridView_for_itembgcolor010">#c18dc9</color>
+    <color name="gridView_for_itembgcolor011">#769a71</color>
+
+    <!-- second_grid -->
+    <drawable name="second_grid_view_n">#EAEAD3</drawable>
+    <drawable name="second_grid_view_h">#7E7E5D</drawable>
+
+    <!-- 其他 -->
+    <color name="color_white">#FFFFFF</color>
+    <color name="listv_color_C4">#C4C4C4</color>
+    <color name="listv_color_3f">#3fa1ae</color>
+    <color name="listv_color_FD">#FDFFFF</color>
+    <color name="radiobg_press">#43859d</color>
+    <color name="radiobg_normal">#555555</color>
+    <color name="first_bg">#f35336</color>
+    <color name="title_top">#4abdcc</color>
+    <color name="comment_all">#32818b</color>
+
+    <!-- 二维码 -->
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#c0ffbd21</color>
+
+    <!-- Android standard ICS color -->
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+
+    <!-- Android standard ICS color -->
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+
+    <!-- Android standard ICS color -->
+    <color name="viewfinder_mask">#60000000</color>
+
+</resources>

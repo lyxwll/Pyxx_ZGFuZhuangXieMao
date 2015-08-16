@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_bottom"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#E8E8E8" >
+
+    <Button
+        android:id="@+id/btn_send"
+        android:layout_width="50dp"
+        android:layout_height="28dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/search_btn"
+        android:text="搜索"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <AutoCompleteTextView
+        android:id="@+id/et_sendmessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@id/btn_send"
+        android:background="@drawable/search_img_bg"
+        android:completionThreshold="1"
+        android:dropDownHorizontalOffset="20dp"
+        android:ems="10"
+        android:hint="请输入市场关键字或者拼音检索"
+        android:paddingLeft="25dp"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:textSize="13sp" />
+
+    <ImageView
+        android:id="@+id/nearby_imageview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="15dp"
+        android:src="@drawable/sousuoanniu" />
+
+</RelativeLayout>

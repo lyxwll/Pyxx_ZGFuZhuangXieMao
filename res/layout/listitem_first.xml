@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" >
+
+    <ImageView
+        android:id="@+id/listitem_icon"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/list_qst"
+        android:scaleType="fitXY" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="62dp"
+        android:layout_toRightOf="@+id/listitem_icon" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/listitem_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:text="标题asfgsr而我也是呀而沙哑而乌鸦喝水日饿死人员和燃烧也涮羊肉事业"
+                android:textColor="#222222"
+                android:textSize="17sp" />
+
+            <TextView
+                android:id="@+id/listitem_category"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:singleLine="true"
+                android:text="将忒噢金话筒奖阿瓦二娃条件外婆阿娇"
+                android:textColor="#929292"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

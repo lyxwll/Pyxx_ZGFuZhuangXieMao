@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/part_content"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f3f3f3"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/seccond_item"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="#C2C2A0"
+        android:visibility="gone" >
+
+        <include layout="@layout/second_layout" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/main_rl"
+        android:layout_width="match_parent"
+        android:layout_height="150dp" >
+
+        <android.widget.Gallery
+            android:id="@+id/show_head_img"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="fill"
+            android:spacing="10dp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_alignParentBottom="true"
+            android:background="#38000000" >
+
+            <TextView
+                android:id="@+id/head_title"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="15dp"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="正在加载..."
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+
+            <RadioGroup
+                android:id="@+id/head_group"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal" >
+            </RadioGroup>
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/title_meishi_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <RelativeLayout
+            android:id="@+id/title_type_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:id="@+id/rl_1"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/type_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/type_tb" />
+
+                <TextView
+                    android:id="@+id/title_type_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/type_iv"
+                    android:text="家政"
+                    android:textColor="#929292"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/fengexian_1" />
+
+        <RelativeLayout
+            android:id="@+id/title_city_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:id="@+id/rl_2"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/city_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/city_tb" />
+
+                <TextView
+                    android:id="@+id/title_city_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/city_iv"
+                    android:text="城市"
+                    android:textColor="#929292"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:src="@drawable/fengexian_1" />
+
+        <RelativeLayout
+            android:id="@+id/title_paixu_rl"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+
+            <RelativeLayout
+                android:id="@+id/rl_3"
+                android:layout_width="120dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true" >
+
+                <ImageView
+                    android:id="@+id/paixun_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/paixu_tb" />
+
+                <TextView
+                    android:id="@+id/title_paixu_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginLeft="10dp"
+                    android:layout_toRightOf="@id/paixun_iv"
+                    android:text="排序"
+                    android:textColor="#929292"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <com.pyxx.baseview.XListView
+            android:id="@+id/list_id_list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="#00000000"
+            android:cacheColorHint="#00000000"
+            android:divider="#CBCBCB"
+            android:dividerHeight="2px"
+            android:fadingEdgeLength="0px"
+            android:listSelector="#00000000" >
+        </com.pyxx.baseview.XListView>
+
+        <include layout="@layout/loading_layout" />
+    </RelativeLayout>
+
+</LinearLayout>

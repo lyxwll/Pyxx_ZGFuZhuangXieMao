@@ -1,0 +1,561 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white" >
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="分享设置"
+                android:textColor="#808080"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/setting_share"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="23dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/manager_content"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" >
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:text="字号设置"
+                android:textColor="#808080"
+                android:textSize="18sp"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/setting_text"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:visibility="gone" >
+
+                <LinearLayout
+                    android:id="@+id/setting_push"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="7dip" >
+
+                    <TextView
+                        style="@style/setting_text"
+                        android:layout_marginLeft="3dip"
+                        android:gravity="left"
+                        android:text="推送通知"
+                        android:textColor="#000000" />
+
+                    <TextView
+                        android:id="@+id/st_push_state"
+                        style="@style/button_style"
+                        android:background="@drawable/bind_tuijian_open" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="120dp"
+                android:background="#DE9D9D" >
+
+                <ImageView
+                    android:id="@+id/user_pic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:src="@drawable/default_head_bg" />
+
+                <TextView
+                    android:id="@+id/userName_text"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="8dp"
+                    android:text="点击登录"
+                    android:textColor="#ffffff"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="23dip"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:id="@+id/setting_gwc"
+                    style="@style/setting_center_bg"
+                    android:layout_width="match_parent"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/setting_iv_gwc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/more_userlogin"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/setting_text_gwc"
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/setting_iv_gwc"
+                        android:gravity="left"
+                        android:text="我的购物车"
+                        android:textColor="#040000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:src="@drawable/jiantou" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_wait_order"
+                    style="@style/setting_center_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <ImageView
+                        android:id="@+id/setting_iv_wait_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/more_userlogin"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/setting_text_wait_order"
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/setting_iv_wait_order"
+                        android:gravity="left"
+                        android:text="待付款订单"
+                        android:textColor="#040000" />
+
+                    <ImageView
+                        android:id="@+id/jiantou_iv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:src="@drawable/jiantou" />
+
+                    <TextView
+                        android:id="@+id/order_count"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dp"
+                        android:layout_toLeftOf="@id/jiantou_iv"
+                        android:text="0"
+                        android:textColor="#929292"
+                        android:textSize="14sp" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_my_order"
+                    style="@style/setting_center_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <ImageView
+                        android:id="@+id/setting_iv_my_order"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/more_userlogin"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/setting_text_my_order"
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/setting_iv_my_order"
+                        android:gravity="left"
+                        android:text="我的订单"
+                        android:textColor="#040000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:src="@drawable/jiantou" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_collect"
+                    style="@style/setting_center_bg" >
+
+                    <ImageView
+                        android:id="@+id/setting_iv_collect"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/more_userlogin"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/setting_text_collect"
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="10dp"
+                        android:layout_toRightOf="@id/setting_iv_collect"
+                        android:gravity="left"
+                        android:text="收藏"
+                        android:textColor="#040000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="10dip"
+                        android:src="@drawable/jiantou" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_addr"
+                    style="@style/setting_center_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <ImageView
+                        android:id="@+id/setting_iv_addr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:background="@drawable/more_userlogin"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/setting_text_addr"
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/setting_iv_addr"
+                        android:gravity="left"
+                        android:text="收货地址管理"
+                        android:textColor="#040000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:src="@drawable/jiantou" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/my_bg" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_tuisong"
+                    style="@style/setting_center_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <ImageView
+                        android:id="@+id/setting_iv_tuisong"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/more_userlogin"
+                        android:visibility="gone" />
+
+                    <TextView
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/setting_iv_tuisong"
+                        android:gravity="left"
+                        android:text="推送通知"
+                        android:textColor="#040000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:src="@drawable/tuisong_tb1" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_feedback"
+                    style="@style/setting_center_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <ImageView
+                        android:id="@+id/fankui_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/more_backmsg"
+                        android:visibility="gone" />
+
+                    <TextView
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/fankui_logo"
+                        android:gravity="left"
+                        android:text="用户反馈"
+                        android:textColor="#040000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:src="@drawable/jiantou" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_about"
+                    style="@style/setting_center_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp" >
+
+                    <ImageView
+                        android:id="@+id/guanyu_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/more_about"
+                        android:visibility="gone" />
+
+                    <TextView
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/guanyu_logo"
+                        android:gravity="left"
+                        android:text="关于我们"
+                        android:textColor="#040000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:src="@drawable/jiantou" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_kefu"
+                    style="@style/setting_center_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:layout_marginTop="2dp"
+                    android:visibility="gone" >
+
+                    <ImageView
+                        android:id="@+id/kefu_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/more_about"
+                        android:visibility="gone" />
+
+                    <TextView
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/kefu_logo"
+                        android:gravity="left"
+                        android:text="客服中心"
+                        android:textColor="#040000" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:src="@drawable/jiantou" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <RelativeLayout
+                    android:id="@+id/setting_clear"
+                    style="@style/setting_center_bg"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp" >
+
+                    <ImageView
+                        android:id="@+id/qingkong_logo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        android:background="@drawable/more_clean"
+                        android:visibility="gone" />
+
+                    <TextView
+                        style="@style/setting_text"
+                        android:layout_centerVertical="true"
+                        android:layout_gravity="left"
+                        android:layout_marginLeft="5dp"
+                        android:layout_toRightOf="@id/qingkong_logo"
+                        android:gravity="left"
+                        android:text="清除缓存"
+                        android:textColor="#040000" />
+
+                    <TextView
+                        android:id="@+id/st_clear_size"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="15dp"
+                        android:layout_toLeftOf="@+id/neicun"
+                        android:gravity="right"
+                        android:text="0kb"
+                        android:textColor="#929292" />
+
+                    <ImageView
+                        android:id="@+id/neicun"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginRight="5dip"
+                        android:src="@drawable/jiantou" />
+                </RelativeLayout>
+
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/more_fgx" />
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp" >
+
+                    <Button
+                        android:id="@+id/cancle_btn"
+                        android:layout_width="fill_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:background="@drawable/button_login"
+                        android:text="注销"
+                        android:textColor="#ffffff"
+                        android:textSize="16sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

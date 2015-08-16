@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="15dp"
+    android:layout_marginRight="15dp"
+    android:background="@drawable/list_selector"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:paddingBottom="8dip" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/banner" >
+
+        <TextView
+            android:id="@+id/listitem_title_s"
+            style="@style/setting_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="市场商家入驻" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="市场主:  "
+            android:textColor="#535353" />
+
+        <TextView
+            android:id="@+id/listitem_title"
+            style="@style/listitem_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="标题" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shichangline" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            style="@style/listitem_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="招商电话:"
+            android:textColor="#535353" />
+
+        <RelativeLayout
+            android:id="@+id/convenience_dhbutton"
+            android:layout_width="120dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/phone_bg" >
+
+            <TextView
+                android:id="@+id/listitem_photos_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/listv_color_FD" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="2px"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shichangline" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            style="@style/listitem_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="商家介绍:"
+            android:textColor="#535353" />
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp" >
+
+            <TextView
+                android:id="@+id/listitem_des"
+                style="@style/listitem_title"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+
+</LinearLayout>

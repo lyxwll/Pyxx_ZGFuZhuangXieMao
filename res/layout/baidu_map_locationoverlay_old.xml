@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+            android:id="@+id/map_title_view"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:background="@drawable/biaoti_bg"
+            android:gravity="center_vertical" >
+
+            <TextView
+                android:id="@+id/btn_bml_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:drawableLeft="@drawable/return_tb1"
+                android:text=" 返回"
+                android:textSize="15dp"
+                android:textColor="#ffffff" />
+
+            <TextView
+                android:id="@+id/txtv_loadlook_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="路线"
+                android:textColor="@color/color_white"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <com.baidu.mapapi.map.MapView
+            android:id="@+id/bmapView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true" />
+
+        <ImageView
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="9dp"
+            android:src="@drawable/custom_loc" />
+    </RelativeLayout>
+
+</LinearLayout>

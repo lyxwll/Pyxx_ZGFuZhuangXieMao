@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="libs/core.jar"/>
+	<classpathentry kind="lib" path="libs/Volley.jar"/>
+	<classpathentry kind="lib" path="libs/baidumapapi_v2_4_0.jar"/>
+	<classpathentry kind="lib" path="libs/pinyin4j-2.5.0.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Core-2.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-QQ-2.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-QZone-2.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-SinaWeibo-2.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-TencentWeibo-2.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-2.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-Core-2.6.0.jar"/>
+	<classpathentry kind="lib" path="libs/ShareSDK-Wechat-Moments-2.6.0.jar"/>
+	<classpathentry exported="true" kind="con" path="com.android.ide.eclipse.adt.DEPENDENCIES"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

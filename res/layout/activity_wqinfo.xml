@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:title="http://schemas.android.com/apk/res/com.pengyou.citycommercialarea"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF" >
+
+    <RelativeLayout
+        android:id="@+id/part_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/head"
+        android:background="#FFFFFF" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/head"
+        android:layout_width="fill_parent"
+        android:layout_height="160dip"
+        android:layout_below="@+id/title"
+        android:background="#FFFFFF"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:paddingTop="15dip" >
+
+        <ImageView
+            android:id="@+id/wq_head"
+            android:layout_width="100dip"
+            android:layout_height="200dip"
+            android:layout_marginRight="8dip"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/wq_date"
+            style="@style/listitem_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/wq_head"
+            android:textSize="14sp" >
+        </TextView>
+
+        <TextView
+            android:id="@+id/wq_title"
+            style="@style/listitem_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/wq_date"
+            android:layout_toRightOf="@+id/wq_head"
+            android:textSize="20sp" >
+        </TextView>
+
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/wq_title"
+            android:layout_toRightOf="@+id/wq_head" >
+
+            <TextView
+                android:id="@+id/wq_des"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#535353"
+                android:textSize="17sp" >
+            </TextView>
+        </ScrollView>
+    </RelativeLayout>
+
+</RelativeLayout>

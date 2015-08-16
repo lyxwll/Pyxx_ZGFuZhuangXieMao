@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/second_layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/second_part_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/second_part_1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="家具分类"
+            android:textColor="#606045"
+            android:textSize="16sp" />
+
+        <ImageView
+            android:id="@+id/second_part_1_mark"
+            android:layout_width="12dp"
+            android:layout_height="12dp"
+            android:layout_marginLeft="5dp"
+            android:src="@drawable/second_dt_mark" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_part_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/second_part_3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:visibility="invisible" >
+    </LinearLayout>
+
+</LinearLayout>

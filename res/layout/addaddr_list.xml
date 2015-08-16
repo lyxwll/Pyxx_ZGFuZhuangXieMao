@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:paddingBottom="8dip" >
+
+    <RelativeLayout
+        android:id="@+id/first_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="#efefef" >
+
+        <ImageView
+            android:id="@+id/addr_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:src="@drawable/selected1" />
+
+        <TextView
+            android:id="@+id/addr_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/addr_iv"
+            android:text="设为默认"
+            android:textColor="#040000"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/delete_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="删除"
+            android:textColor="#8e8e8e"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/delete_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/delete_tv"
+            android:src="@drawable/delete_tb1" />
+
+        <TextView
+            android:id="@+id/bianji_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:layout_toLeftOf="@id/delete_iv"
+            android:text="编辑"
+            android:textColor="#8e8e8e"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/select_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@id/bianji_tv"
+            android:src="@drawable/bianji_tb1" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/first_rl"
+        android:layout_marginLeft="10dp" >
+
+        <RelativeLayout
+            android:id="@+id/info_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:background="@color/white"
+            android:gravity="center" >
+
+            <TextView
+                android:id="@+id/listitem_name"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="黄小鸭"
+                android:textColor="#040000"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/listitem_phone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@id/listitem_name"
+                android:singleLine="true"
+                android:text="13325468597"
+                android:textColor="#040000"
+                android:textSize="16sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/listitem_addr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/info_rl"
+            android:layout_marginTop="5dp"
+            android:text="重庆渝中区黄花园两江丽景酒店"
+            android:textColor="#4b4b4b"
+            android:textSize="14sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

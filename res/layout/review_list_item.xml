@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/plnr_rv_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/pinglun_rl" >
+
+        <TextView
+            android:id="@+id/plnr_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="7.5dp"
+            android:text="用户1"
+            android:textColor="#929292"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/plnr_text_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plnr_tv"
+            android:padding="7.5dp"
+            android:text="p内容oijwoitjowjtojqtjqwjt"
+            android:textColor="#040000"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/date_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/plnr_text_tv"
+            android:layout_marginLeft="10dp"
+            android:text="2014-05-02"
+            android:textColor="#929292"
+            android:textSize="13sp" />
+
+        <ImageView
+            android:id="@+id/xx_v1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/date_text"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/more_fgx" />
+    </RelativeLayout>
+
+</RelativeLayout>

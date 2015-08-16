@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/secondscroll"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_below="@+id/second_layout" >
+
+    <com.pyxx.baseview.ImageDetailViewPager
+        android:id="@+id/view_pager" 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+    </com.pyxx.baseview.ImageDetailViewPager>
+
+</RelativeLayout>

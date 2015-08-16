@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <!-- 正在加载的layout xml -->
+
+    <LinearLayout
+        android:id="@+id/add_internetdata_linaer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/failure_expression" />
+
+        <Button
+            android:id="@+id/but_refurbish_data"
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="1dp"
+            android:background="#00000000"
+            android:text="数据加载失败，点击刷新数据"
+            android:textColor="@color/black"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linear_refurbish"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <ProgressBar
+            android:id="@+id/Progressbar_a"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:id="@+id/login_data_textview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="9dp"
+            android:gravity="center"
+            android:text="正在加载，请稍后..." />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/left_title_ll"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical" >
+        
+                <LinearLayout
+                    android:id="@+id/left_title_ll2"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" >
+
+                     <RelativeLayout
+                        android:id="@+id/part_1_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/part_1_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/main_part1_btn" />
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/part_1_btn"
+                            android:textSize="12sp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="#e9d2c6"
+                            android:layout_centerInParent="true"
+                            android:text="推荐食品"/>                         
+                    </RelativeLayout>                   
+                    
+                    <RelativeLayout
+                        android:id="@+id/part_2_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/part_2_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/main_part2_btn" />
+                       
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerInParent="true"
+                            android:layout_below="@id/part_2_btn"
+                            android:layout_marginTop="12dp"
+                            android:textSize="12sp"
+                            android:textColor="#e9d2c6"
+                            android:text="附近食品店"/>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/part_3_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/part_3_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/main_part3_btn" />
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/part_3_btn"
+                            android:textSize="12sp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="#e9d2c6"
+                            android:layout_centerInParent="true"
+                            android:text="食品分类"/>                           
+                    </RelativeLayout>
+
+
+                    <RelativeLayout
+                        android:id="@+id/part_4_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/part_4_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/main_part4_btn" />
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/part_4_btn"
+                            android:layout_marginTop="12dp"
+                            android:textSize="12sp"
+                            android:textColor="#e9d2c6"
+                            android:layout_centerInParent="true"
+                            android:text="食品资讯"/>                        
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="32dp" >
+
+                    <RelativeLayout
+                        android:id="@+id/part_5_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1" >
+
+                        <ImageView
+                            android:id="@+id/part_5_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/main_part5_btn" />
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/part_5_btn"
+                            android:textSize="12sp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="#e9d2c6"
+                            android:layout_centerInParent="true"
+                            android:text="个人中心"/>                           
+                    </RelativeLayout>
+
+                    <RelativeLayout
+                        android:id="@+id/part_6_rl"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:visibility="invisible" >
+
+                        <ImageView
+                            android:id="@+id/part_6_btn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:clickable="true"
+                            android:layout_centerHorizontal="true"
+                            android:src="@drawable/main_part5_btn" />
+                        
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@id/part_6_btn"
+                            android:textSize="12sp"
+                            android:layout_marginTop="12dp"
+                            android:textColor="#e9d2c6"
+                            android:layout_centerInParent="true"
+                            android:text="设置"/>                          
+                    </RelativeLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+</LinearLayout>

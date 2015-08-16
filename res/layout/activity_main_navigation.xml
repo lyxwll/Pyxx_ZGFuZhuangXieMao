@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/navigation"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:background="@color/white"
+    android:gravity="center_vertical"
+    android:orientation="horizontal" >
+
+    <com.pyxx.view.MainButton
+        android:id="@+id/m_part_1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main_1_tb2"
+        android:onClick="changePart"
+        android:scaleType="fitCenter" />
+
+    <com.pyxx.view.MainButton
+        android:id="@+id/m_part_2"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main_2_tb1"
+        android:onClick="changePart"
+        android:scaleType="fitCenter" />
+
+    <com.pyxx.view.MainButton
+        android:id="@+id/m_part_3"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main_3_tb1"
+        android:onClick="changePart"
+        android:scaleType="fitCenter" />
+
+    <com.pyxx.view.MainButton
+        android:id="@+id/m_part_4"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main_4_tb1"
+        android:onClick="changePart"
+        android:scaleType="fitCenter" />
+
+    <com.pyxx.view.MainButton
+        android:id="@+id/m_part_5"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:background="@drawable/main_5_tb1"
+        android:onClick="changePart"
+        android:scaleType="fitCenter" />
+
+</LinearLayout>

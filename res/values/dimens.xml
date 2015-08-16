@@ -1,0 +1,62 @@
+<!--
+  Copyright 2011 The Android Open Source Project
+
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
+-->
+
+<resources>
+
+    <dimen name="slidingmenu_offset">150dp</dimen>
+    <dimen name="list_padding">0dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+
+    <dimen name="image_home_size">400px</dimen>
+    <dimen name="image_thumbnail_size">200dp</dimen>
+    <dimen name="image_thumbnail_spacing">1dp</dimen>
+    <dimen name="image_detail_pager_margin">80dp</dimen>
+
+    <item name="offline" format="boolean" type="bool">false</item>
+    <!-- 首页显示配置 -->
+    <item name="hashome" format="boolean" type="bool">false</item>
+    <!-- 评论设置 -->
+    <item name="comment_need_bind" format="boolean" type="bool">false</item>
+    <!-- 内文图说显示 -->
+    <item name="article_hastitle" format="boolean" type="bool">false</item>
+    <!-- 数据加载条数设置 -->
+    <item name="mleng" format="integer" type="integer">15</item>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <dimen name="page_title_height">46dp</dimen>
+    <dimen name="page_title_size">23sp</dimen>
+    <dimen name="btn_title_hight">35dp</dimen>
+    <dimen name="btn_title_width">60dp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="page_title_height">46dp</dimen>
+    <dimen name="page_title_size">23sp</dimen>
+    <dimen name="btn_title_hight">35dp</dimen>
+    <dimen name="btn_title_width">60dp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+
+    <!-- 二维码 -->
+    <dimen name="standard_padding">8dip</dimen>
+    <dimen name="half_padding">4dip</dimen>
+    <dimen name="txtv_more_list_dimen">14sp</dimen>
+    <dimen name="txtv_more_aboutus_dimen">16sp</dimen>
+
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/childList"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <RelativeLayout
+        android:id="@+id/rl_detail"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="5dp" >
+
+        <ImageView
+            android:id="@+id/detail_xlcxlayoutimageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:id="@+id/detail_layout_xlcxtextview"
+            android:layout_width="fill_parent"
+            android:layout_height="35dp"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@id/detail_xlcxlayoutimageview"
+            android:singleLine="true"
+            android:text="线路查询"
+            android:textColor="@color/black"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/detail_layout_xlcxtextview"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/comment_fgximageview" />
+    </RelativeLayout>
+
+</LinearLayout>

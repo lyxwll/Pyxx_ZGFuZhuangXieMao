@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/list_selector"
+    android:gravity="center_vertical"
+    android:paddingBottom="5dip"
+    android:paddingTop="5dip" >
+
+    <ImageView
+        android:id="@+id/listitem_icon"
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="2dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/list_qst"
+        android:scaleType="fitXY" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="5dp"
+        android:src="@drawable/jiantou" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/listitem_icon"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/listitem_title"
+            style="@style/listitem_title"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:text="标题asfgsr而我也是呀而沙哑而乌鸦喝水日饿死人员和燃烧也涮羊肉事业" />
+
+        <TextView
+            android:id="@+id/listitem_summary"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp"
+            android:ellipsize="end"
+            android:lines="2"
+            android:text="将忒噢金话筒奖阿瓦二娃条件外婆阿娇"
+            android:textColor="#929292"
+            android:textSize="14sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+
+            <TextView
+                android:id="@+id/listitem_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="10dp"
+                android:text="2014-04-05"
+                android:textColor="#929292"
+                android:textSize="13sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/listitem_des"
+            style="@style/listitem_des"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:paddingBottom="2dp"
+            android:text="jafoweoajoew傲骨i特价阿伟纪委案提交哦我建瓯台 瓦尔特为集团军 "
+            android:textSize="14sp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/item_phone_bg"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/item_phone_mark" />
+
+            <TextView
+                android:id="@+id/listitem_phone"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="标题"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

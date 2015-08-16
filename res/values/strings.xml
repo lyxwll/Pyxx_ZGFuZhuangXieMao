@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="pid">10020</string>
+    <string name="cache_dir">pyxx_xiangmu_cache</string>
+    <string name="data_type_error">服务异常……</string>
+    <string name="app_name">中国服装鞋帽门户市场</string>
+    <string name="about_name">中国服装鞋帽门户市场手机客户端</string>
+    <string name="general">General</string>
+    <string name="shops_city">城市</string>
+    <string name="all_city">所有省份</string>
+    <string name="current_selection">当前选择</string>
+    <string name="about_jishu">技术支持:重庆鹏优信息技术有限公司</string>
+    <string name="viewpager">ViewPager</string>
+    <string name="attach">Attach</string>
+    <string name="title_bar">Title Bar Options</string>
+    <string name="title_bar_slide">Sliding Title Bar</string>
+    <string name="title_bar_content">Sliding Content Only</string>
+    <string name="animations">Custom Animations</string>
+    <string name="anim_zoom">Zoom</string>
+    <string name="anim_scale">Scale</string>
+    <string name="anim_fold">Fold</string>
+    <string name="anim_slide">Slide Up</string>
+    <string name="changing_fragments">Changing Fragments</string>
+    <string name="responsive_ui">Responsive UI</string>
+    <string name="left">Left</string>
+    <string name="right">Right</string>
+    <string name="left_and_right">Left and Right</string>
+    <string name="github">GitHub</string>
+    <string name="github_label">SlidingMenu on GitHub</string>
+    <string name="what_is_this">What is this?</string>
+    <string name="responsive_explanation">This is an example of a UI that responds well to device type. On phones, the menu will be placed inside a SlidingMenu, while on tablets the menu will be exposed alongside the content because we have enough room to always show it.</string>
+    <string name="about">About</string>
+    <string name="licenses">Licenses</string>
+    <string name="contact">Contact</string>
+    <string name="more_about_aboutus_string">重庆鹏优信息技术有限公司成立于2009年5月4日，是一家充满激情活力与创新精神的中型企业,是一家致力于移动互联网（3G）的高科技企业。一直以来，活跃在中国移动互联网信息化的普及服务工作中，为众多的中小型企业移动信息化进程服务。我们追求在企业信息化领域实现客户梦想，改善企业的信息化水平，并通过我们锲而不舍的群体奋斗，使我们成为业界领先的公众企业。</string>
+    <string name="more_about_aboutus_version_string">版本号：V1.0.0</string>
+    <string name="more_about_aboutus_phone_string">电话:4000－666－058</string>
+    <string name="result_address_book">找到联系人信息</string>
+    <string name="msg_default_type">类型</string>
+    <string name="msg_default_time">时间</string>
+    <string name="msg_default_format">格式</string>
+    <string name="msg_default_meta">元数据</string>
+    <string name="button_ok">确定</string>
+    <string name="result_product">找到产品</string>
+    <string name="fav_nodata">暂无收藏</string>
+    <string name="contents_email">Email地址</string>
+    <string name="msg_sbc_page">页面</string>
+    <string name="msg_sbc_results">结果</string>
+    <string name="msg_unmount_usb">抱歉，SD卡不可访问。</string>
+    <string name="wifi_ssid_label">网络SSID</string>
+    <string name="wifi_type_label">类型</string>
+    <!-- detail_layout 商家详情 -->
+    <string name="detail_title">详情</string>
+    <string name="detail_preferential">优惠：</string>
+    <string name="detail_products_and_services">产品服务：</string>
+    <string name="detail_business_introduction">商家介绍:</string>
+    <string name="detail_see_all">查看全部评论   ></string>
+    <string name="detail_review">评论:</string>
+    <string name="detail_percentage">％</string>
+    <string name="search_no_date">暂无与此关键词相匹配的信息</string>
+    <string name="shichanglist_no_date">此市场暂无商家</string>
+    <!-- map_circuit 线路查看 -->
+    <string name="map_circuit">线路查看</string>
+    <string name="map_circuit_walk">步行线路</string>
+    <string name="map_circuit_drive">自驾线路</string>
+    <string name="map_circuit_bus">公交线路</string>
+    <string name="map_circuit_point_out">抱歉，未找到地点！</string>
+    <!-- user_login 登录 -->
+    <string name="user_login_return">返回</string>
+    <string name="user_login_register">注册</string>
+    <string name="user_login_for_QQ">QQ号登录</string>
+    <string name="user_login_userName">用户名或邮箱</string>
+    <string name="user_login_userPwd">登录密码</string>
+    <string name="user_login_title">用户登录</string>
+    <string name="user_login">登录</string>
+    <!-- user_center 个人中心 -->
+    <string name="user_center_title">个人中心</string>
+    <string name="user_center_collect">我的收藏</string>
+    <string name="user_center_two_dimension_code">二维码扫描</string>
+    <string name="user_center_the_current_position">当前位置</string>
+    <string name="user_center_log_out">退出登录</string>
+    <!-- user_register 登录 -->
+    <string name="user_register_title">注册</string>
+    <string name="user_register_postbox">邮&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;箱：</string>
+    <string name="user_register_nickName">昵&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;称：</string>
+    <string name="user_register_sex">性&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;别：</string>
+    <string name="user_register_pwd">密&#160;&#160;&#160;&#160;&#160;&#160;&#160;&#160;码：</string>
+    <string name="user_register_pwd_affirm">确认密码：</string>
+    <string name="user_register_hint_postbox">设置邮箱</string>
+    <string name="user_register_hint_nickName">设置昵称</string>
+    <string name="user_register_hint_sex_man">男</string>
+    <string name="user_register_hint_sex_woman">女</string>
+    <string name="user_register_hint_pwd">6—16位</string>
+    <string name="user_register_hint_pwd_affirm">确认密码</string>
+    <string name="user_register_accomplish_register">完成注册</string>
+    <string name="user_hint">输入</string>
+    <string name="user_label">输入关键字</string>
+    <string name="sm_item_fl_weibo">关注新浪微博</string>
+    <string name="sm_item_fl_tc">关注腾讯微博</string>
+    <string name="second_title">修改后的标题</string>
+
+    <string-array name="jazzy_effects">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+</resources>

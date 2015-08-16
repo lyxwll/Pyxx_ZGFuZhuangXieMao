@@ -1,0 +1,151 @@
+<resources>
+
+    <string name="main">http://171.34.32.126:8080/City/qrurl/</string>
+    <string name="app_url">http://171.34.32.126:8080/City/qrurl/</string>
+    <!-- 文章内容链接 -->
+    <string name="article_url">http://171.34.32.126:8080/City/qrurl?action=article&amp;id=</string>
+    <!-- 文章内容链接 -->
+    <string name="list_url_search">http://171.34.32.126:8080/City/qrurl?action=search&amp;keyword=</string>
+    <!-- 首页链接 -->
+    <string name="home">%1$s/api_v2.php?action=top</string>
+    <!-- 文章列表链接 -->
+    <string name="list_url">%1$s/api_v2.php?action=list</string>
+    <string name="list_url_keyword">%1$s/api_v2.php?action=searchbq</string>
+    <!-- 图片列表链接 -->
+    <string name="draw_list">%1$s/api_v2.php?action=list</string>
+    <string name="draw_content_url">%1$s/api_v2.php?action=picture</string>
+    <!-- 文章评论列表接口 -->
+    <string name="review_url">%1$s/api_v2.php?action=xswz</string>
+    <!-- 用户反馈链接 -->
+    <string name="suggest_url">%1$s/api_v2.php?action=suggest</string>
+    <!-- 文章评论接口 -->
+    <string name="pinglun_url">%1$s/api_v2.php?action=wzpl</string>
+
+    <!-- 用户评论接口 -->
+    <string name="citylife_putComment_list_url">http://api.pymob.cn:8091/cityLife/dataExchange/putComment.action?</string>
+    <!-- 获取用户评论接口 -->
+    <string name="citylife_getComment_list_url">http://api.pymob.cn:8091/cityLife/dataExchange/getCommentList.action?</string>
+    <!-- 城市列表 -->
+    <string name="citylife_citys_list_url">http://api.pymob.cn:8091/cityLife/dataExchange/getCity.action?</string>
+    <!-- 资讯栏目列表 -->
+    <string name="citylife_news_list_url">http://api.pymob.cn:8091/cityLife/dataExchange/getNewsDetail.action?</string>
+    <!-- 版本更新接口 -->
+    <string name="citylife_checkVersion_list_url">http://api.pymob.cn:8091/cityLife/dataExchange/checkVersion.action?</string>
+
+    <!-- 用户登录接口 -->
+    <string name="citylife_loginUserInfo_url">http://api.pymob.cn:8091/cityLife/dataExchange/loginUserInfo.action?</string>
+    <!-- 用户头像修改接口 -->
+    <string name="citylife_FileImageUploadServlet_url">http://api.pymob.cn:8091/cityLife/dataExchange/FileImageUploadServlet.action?</string>
+    <!-- 用户注册接口 -->
+    <string name="citylife_registerUserInfo_url">http://api.pymob.cn:8091/cityLife/dataExchange/codeSms.action?</string>
+    <!-- 短信注册接口 -->
+    <string name="citylife_registerUserInfo_sms_url">http://api.pymob.cn:8091/cityLife/dataExchange/sms.action?sms=</string>
+    <!-- 短信找回密码接口 -->
+    <string name="citylife_getuser_sms_url">http://api.pymob.cn:8091/cityLife/dataExchange/selRetrieve.action?sms=</string>
+    <!-- 短信找回密码修改接口 -->
+    <string name="citylife_getuserxiugai_sms_url">http://api.pymob.cn:8091/cityLife/dataExchange/updaePassWord.action?sms=</string>
+    <!-- 短信找回密码确认接口 -->
+    <string name="citylife_getuserqueren_sms_url">http://api.pymob.cn:8091/cityLife/dataExchange/selRetrievePassWord.action?</string>
+    <!-- 添加收藏接口 -->
+    <string name="citylife_putCollect_list_url">http://api.pymob.cn:8091/cityLife/dataExchange/putCollect.action?</string>
+    <!-- 取消收藏接口 -->
+    <string name="citylife_delCollect_list_url">http://api.pymob.cn:8091/cityLife/dataExchange/delCollect.action?</string>
+    <!-- 收藏列表接口 -->
+    <string name="citylife_getCollect_list_url">http://api.pymob.cn:8091/cityLife/dataExchange/getCollect.action?</string>
+    <!-- 用户反馈接口 -->
+    <string name="citylife_feedback_url">http://api.pymob.cn:8091/cityLife/dataExchange/putBackMessage.action?</string>
+    <!-- 摇奖摇一摇接口 -->
+    <string name="citylife_yaoyiyao_url">http://api.pymob.cn:8091/cityLife/dataExchange/addLotteryDraw.action?iphone=</string>
+    <!-- 摇奖次数 -->
+    <string name="citylife_yaoyiyao_cishu_url">http://api.pymob.cn:8091/cityLife/dataExchange/myLackLotter.action?iphone=</string>
+    <!-- 摇一摇个人抽奖号 -->
+    <string name="citylife_yaoyiayo_jianghaolist_url">http://api.pymob.cn:8091/cityLife/dataExchange/issue.action?</string>
+    <!-- 摇一摇个人中奖信息 -->
+    <string name="citylife_yaoyiayo_zhongjiang_url">http://api.pymob.cn:8091/cityLife/dataExchange/winning.action?</string>
+
+    <!-- 中国服装鞋帽门户接口 -->
+    <!-- 用户登录 -->
+    <string name="url_user_login">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/login!account?</string>
+    <!-- 用户注册 -->
+    <string name="url_user_register">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/register!phone?</string>
+    <!-- 忘记密码 -->
+    <string name="url_user_register_forget">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/general!changePassWord?</string>
+    <!-- 获取验证码 -->
+    <string name="url_get_random">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/sms!get?</string>
+    <!-- 验证验证码 -->
+    <string name="url_user_checkrandom">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/sms!valid?</string>
+    <!-- 添加反馈信息 -->
+    <string name="url_save_feedback">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/general!feedback?</string>
+    <!-- 查询资讯信息 -->
+    <string name="url_sel_zixun">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/list!info?</string>
+    <!-- 查询食品店信息 -->
+    <string name="url_sel_shops">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/list!seller?</string>
+    <!-- 查询指定商家或商品的图片集 -->
+    <string name="url_sel_imgs">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/img!list?</string>
+    <!-- 查询食品信息 -->
+    <string name="url_sel_product">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/list!commodity?</string>
+    <!-- 添加评论信息 -->
+    <string name="url_save_review">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/comment!add?</string>
+    <!-- 获取对象评论信息 -->
+    <string name="url_sel_review">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/comment!list?</string>
+    <!-- 获取所有细分类 -->
+    <string name="url_sel_all_category">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/user!getCategoryall?</string>
+    <!-- 获取所有主分类 -->
+    <string name="url_sel_all_categorys">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/user!getCategorys?</string>
+    <!-- 获取商品信息 -->
+    <string name="url_sel_goods">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/user!selGoods?</string>
+    <!-- 获取所有省份 -->
+    <string name="url_sel_city">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/general!region?</string>
+    <!-- 获取所有类型 -->
+    <string name="url_sel_type">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/general!type?</string>
+    <!-- 获取所有配送方式 -->
+    <string name="url_sel_psfs">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/user!getDelivery?</string>
+    <!-- 用户获取所有自己送货地址 -->
+    <string name="url_sel_addr">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!selAddrList?</string>
+    <!-- 修改收件人地址 -->
+    <string name="url_update_addr">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/user!uqdateConsigneestate?</string>
+    <!-- 保存订单 -->
+    <string name="url_save_order">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!addOrder?</string>
+    <!-- 保存订单 -->
+    <string name="url_save_order_now">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!buy?</string>
+    <!-- 删除订单 -->
+    <string name="url_del_order">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!delOrder?</string>
+    <!-- 添加或修改收件人 -->
+    <string name="url_saveorupdate_consignee">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!addOrUpdateAddr?</string>
+    <!-- 修改为默认收件人 -->
+    <string name="url_update_default">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!setDefautAddress?</string>
+    <!-- 删除收件人 -->
+    <string name="url_del_consignee">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!delAddr?</string>
+    <!-- 查看订单 -->
+    <string name="url_sel_order">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!selOrderList?</string>
+    <!-- 获取商品尺寸 -->
+    <string name="url_get_shopsize">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!selCommodityType?</string>
+    <!-- 获取商品颜色 -->
+    <string name="url_get_shopcolor">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!selCommodityType?</string>
+    <!-- 加入购物车 -->
+    <string name="url_save_shopscar">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!addShop?</string>
+    <!-- 查看获取购物车列表 -->
+    <string name="url_save_shopscarlist">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!selShopList?</string>
+    <!-- 删除购物车商品 -->
+    <string name="url_del_shopscargoods">http://api.tcshenghuo.org:9999/ZGClothingAndShoes/in/shop!delShop?</string>
+
+    <!-- 暂无 -->
+    <string name="main_1_title">推荐食品</string>
+    <string name="main_2_title">附近食品店</string>
+    <string name="main_3_title">食品分类</string>
+    <string name="main_4_title">食品资讯</string>
+    <string name="main_5_title">个人中心</string>
+    <string name="main_6_title">设置</string>
+    <string name="titlte_search">搜索结果</string>
+    <string name="setting_list_wenzhangzihao">文章字号</string>
+    <string name="setting_list_shouchangliebiao">我的收藏</string>
+    <string name="setting_list_zhanghaoguanli">分享设置</string>
+    <string name="setting_list_yonghufankui">意见反馈</string>
+    <string name="setting_list_recommend">精彩推荐</string>
+    <string name="setting_list_common">常见问题</string>
+    <string name="setting_list_help">帮助说明</string>
+    <string name="setting_list_tuisong">推送通知</string>
+    <string name="setting_list_banbenxinxi">关于我们</string>
+    <string name="setting_list_qingchuhuancun">清除缓存</string>
+
+</resources>

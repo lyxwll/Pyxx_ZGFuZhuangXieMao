@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:title="http://schemas.android.com/apk/res/com.pengyou.citycommercialarea"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg" >
+
+    <RelativeLayout
+        android:id="@+id/titlebar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/banner"
+        android:paddingBottom="5dip" >
+
+        <TextView
+            android:id="@+id/comment_back"
+            style="@style/back_btn"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            style="@style/setting_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="评论" />
+
+        <TextView
+            android:id="@+id/send_btn"
+            style="@style/button_style"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:padding="5dp"
+            android:textColor="@color/white" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rl_RatingBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/page_title_height"
+        android:layout_below="@+id/titlebar"
+        android:gravity="center_vertical" >
+
+        <RatingBar
+            android:id="@+id/rb_addSeller_grade"
+            style="@style/foodRatingBar"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:numStars="5" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="20dp"
+            android:text="点击星星评分"
+            android:textColor="#ff888271"
+            android:textSize="@dimen/text_15" />
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="1dp"
+            android:layout_below="@id/rb_addSeller_grade"
+            android:layout_marginTop="1dp"
+            android:background="@drawable/comment_fgximageview" />
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/comment_article"
+        android:layout_width="fill_parent"
+        android:layout_height="130dip"
+        android:layout_below="@+id/rl_RatingBar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="3dip"
+        android:gravity="top"
+        android:hint="您的宝贵意见对我们很重要哦"
+        android:padding="7dp"
+        android:textColor="@color/black"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/zishu_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/comment_article"
+        android:layout_marginTop="5dp"
+        android:paddingRight="14.666dp"
+        android:singleLine="true"
+        android:text="140字以内"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        android:visibility="gone" />
+
+    <include layout="@layout/loading_layout" />
+
+</RelativeLayout>

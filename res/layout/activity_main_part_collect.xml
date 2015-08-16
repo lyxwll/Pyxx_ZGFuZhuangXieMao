@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainroot"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <include layout="@layout/main_title_items" />
+
+    <LinearLayout
+        android:id="@+id/collect_main_rl"
+        android:layout_width="fill_parent"
+        android:layout_height="44dip"
+        android:background="#ce84b6"
+        android:orientation="horizontal" >
+
+        <RadioGroup
+            android:id="@+id/collect_rg_ridao"
+            android:layout_width="fill_parent"
+            android:layout_height="44dp"
+            android:background="#efefef"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/collect_rb_1"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:button="@null"
+                android:gravity="center"
+                android:text="商品收藏"
+                android:textColor="#222222" />
+            <ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/fengexian_1"             
+                />
+
+            <RadioButton
+                android:id="@+id/collect_rb_2"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1" 
+                android:button="@null"
+                android:gravity="center"
+                android:text="商家收藏 "
+                android:textColor="@color/biaoti_color" />
+<ImageView 
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:src="@drawable/fengexian_1" 
+                android:visibility="gone"               
+                />
+            <RadioButton
+                android:id="@+id/collect_rb_3"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:background="#ce84b6"
+                android:button="@null"
+                android:gravity="center"
+                android:text="活动促销"
+                android:visibility="gone"
+                android:textColor="#ffffff" />
+        </RadioGroup>
+    </LinearLayout>
+        <ImageView 
+                android:id="@+id/fgx_iv"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/main_title"
+                android:background="@drawable/list_fgx"
+            />
+
+    <RelativeLayout
+        android:id="@+id/part_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/fgx_iv" >
+    </RelativeLayout>
+
+</LinearLayout>

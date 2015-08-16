@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <ImageView
+        android:id="@+id/imagev_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="10dp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/market_button_item" />
+    <!-- 上面修改图片底部颜色，background属性 -->
+
+    <LinearLayout
+        android:id="@+id/text_linear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/head_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#03795C"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|center_horizontal"
+            android:ellipsize="end"
+            android:maxLength="4"
+            android:singleLine="true"
+            android:textColor="#03795C"
+            android:textSize="14dp" />
+    </LinearLayout>
+
+</RelativeLayout>
